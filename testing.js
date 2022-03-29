@@ -3,3 +3,7 @@ const sayWaddup = () => {
 }
 
 let name;
+
+const defineName = (newName) => {
+    name = newName;
+}
